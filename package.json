@@ -1,0 +1,27 @@
+{
+  "name": "mean_blog_bulletin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemhi/mean_blog_bulletin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chemhi/mean_blog_bulletin/issues"
+  },
+  "homepage": "https://github.com/chemhi/mean_blog_bulletin#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.6"
+  }
+}
