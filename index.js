@@ -24,7 +24,9 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(methodOverride("_method"));
 
 //Routes
+//app.use("/", require("./routes/home"));
 app.use("/", require("./routes/home"));
+app.use("/posts", require("./routes/posts"));
 
 //port Setting
 app.listen(3000, function(){
